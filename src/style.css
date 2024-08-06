@@ -1,0 +1,85 @@
+.container {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 0 auto;
+  background-color: #00ffff;
+  flex-direction: column;
+  margin-top: 20px;
+  border-radius: 0.3rem;
+}
+
+.item {
+  background-color: #f0ffffa5;
+  padding: 1rem;
+  margin-top: 0.6rem;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 3rem;
+}
+
+li {
+  cursor: pointer;
+}
+
+.quantity {
+  padding: 0.6rem;
+  margin: 0.3rem;
+}
+
+button {
+  margin-left: 0.3rem;
+  padding: 0.4rem;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  font-size: larger;
+}
+
+.btn-add {
+  margin-left: 0.8rem;
+  font-size: xx-large;
+  margin-top: 0.4rem;
+}
+
+input {
+  border: none;
+  background-color: rgba(0, 0, 255, 0.525);
+  padding: 0.7rem;
+  border-radius: 0.9rem;
+  width: 60%;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container > * {
+  padding: 1rem;
+}
+
+.container > ul > li {
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.total {
+  background-color: rgba(0, 157, 255, 0.415);
+  font-size: 1.8rem;
+  border-bottom-right-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
+}
