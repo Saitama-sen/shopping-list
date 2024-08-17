@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./style.css";
-import ShopingList from "./ShoppingList";
+import "./index.css";
+import Board from "./Board";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <ShopingList />
+    <Board />
   </React.StrictMode>
 );
 

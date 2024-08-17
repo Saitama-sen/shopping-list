@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.squres {
+  height: 155px;
+  width: 210px;
+}
+
+button {
+  height: 50px;
+  width: 70px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.btn-reset {
+  color: white;
+  font-weight: bold;
+  background-color: rgba(255, 0, 0, 0.895);
+}
